@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FF000000" >
+    
+    
+    
+    
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FF000000"
+    android:layout_marginLeft="30dip"
+    android:layout_marginRight="30dip" >
+    
+    <TextView
+            android:id="@+id/game_over_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:gravity="center"
+            android:text="GAME OVER"
+            android:textAlignment="5"
+            android:textColor="#FF2222"
+            android:textSize="40sp"
+            android:textStyle="normal|bold" />
+    
+    
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="30dip"
+        android:layout_marginRight="30dip"
+        android:orientation="vertical" >
+
+        
+        <TextView
+            android:id="@+id/score_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:gravity="center"
+            android:text="SCORE\n0"
+            android:textAlignment="5"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:textStyle="normal|bold" />
+        
+        
+        <TextView
+            android:id="@+id/high_score_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:gravity="center"
+            android:text="HIGH SCORE\n 0"
+            android:textAlignment="5"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:textStyle="normal|bold" />
+        
+        <Button
+        		android:id="@+id/game_options_replay"
+        		android:layout_gravity="center"
+        		android:layout_width="match_parent"
+        		android:layout_height="wrap_content"
+        		android:text="Play Again"
+        		android:textSize="20sp"
+        		android:textColor="#22FF22"
+        		android:textStyle="normal|bold"
+        		android:layout_marginTop="20dip"
+        		android:background="@layout/rounded_corner"
+        		 />
+
+        
+        
+    </LinearLayout>
+
+</LinearLayout>
+</LinearLayout>
